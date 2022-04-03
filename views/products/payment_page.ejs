@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment page</title>
+    <link rel="stylesheet" href="/navbar.css">
+    <link rel="stylesheet" href="/payment.css">
+    <link rel="stylesheet" href="/footer.css">
+</head>
+<body onload="sendData(`<%=JSON.stringify(final_item)%>`)">
+    <%- include("../partial/navbar.ejs")%>
+    <%- include("../partial/payment.ejs")%>
+    <%- include("../partial/footer.ejs")%>
+</body>
+</html>
+
+<script src="/payment.js"></script>
