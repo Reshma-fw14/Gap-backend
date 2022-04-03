@@ -171,4 +171,8 @@ function sendData(a,b,c){
     console.log(_id);
     window.location.href = `https://gap-project.herokuapp.com/home/dresses/payment/${_id}`;
   }
+  // function single({_id}){
+  //   console.log(_id);
+  //   window.location.href = `https://gap-project.herokuapp.com/home/pants/payment/${_id}`;
+  // }
 
