@@ -56,7 +56,7 @@ document.getElementById("coBtn").onclick=()=> {
 
 function single({_id,brand}){
     console.log(_id,brand)
-    window.location.href=`/checkout/?id=${_id}&brand=${brand}`;
+    window.location.href=`https://gap-project.herokuapp.com/checkout/?id=${_id}&brand=${brand}`;
 }
 // function single({_id}){
 //     // console.log(_id)

@@ -169,6 +169,6 @@ function sendData(a,b,c){
 
   function single({_id}){
     console.log(_id);
-    window.location.href = `/home/dresses/payment/${_id}`;
+    window.location.href = `https://gap-project.herokuapp.com/home/dresses/payment/${_id}`;
   }
 

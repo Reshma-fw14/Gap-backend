@@ -89,5 +89,5 @@ function price(){
 function  single({_id}){
     
 //    console.log(_id)
-    window.location.href=`http://localhost:2020/home/dresses/view_product/${_id}`
+    window.location.href=`https://gap-project.herokuapp.com/home/dresses/view_product/${_id}`
 }
