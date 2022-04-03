@@ -44,7 +44,7 @@ document.getElementById("crosS").onclick=()=>{
 }
 
 document.getElementById("keepShopBtn").onclick=()=>{
-    window.location.href="http://localhost:2020/home/dresses"
+    window.location.href="/home/dresses"
 }
 
 
@@ -56,7 +56,7 @@ document.getElementById("coBtn").onclick=()=> {
 
 function single({_id,brand}){
     console.log(_id,brand)
-    window.location.href=`http://localhost:2020/checkout/?id=${_id}&brand=${brand}`;
+    window.location.href=`/checkout/?id=${_id}&brand=${brand}`;
 }
 // function single({_id}){
 //     // console.log(_id)
