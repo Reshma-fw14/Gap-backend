@@ -24,7 +24,7 @@ function sendData(a,b,c){
      dress=JSON.parse(a)
      pant=JSON.parse(b)
      gapfit=JSON.parse(c)
-    // console.log("dress:",dress, "pant:",pant, "gapfit:",gapfit)
+    console.log("dress:",dress, "pant:",pant, "gapfit:",gapfit)
     if(dress){
       temp=dress;
       console.log("dress:",dress)
