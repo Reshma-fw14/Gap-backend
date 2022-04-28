@@ -22,6 +22,8 @@ router.get("/checkout/", async(req,res)=>{
         // if(gapfit){
         //     return res.render("products/checkout_page.ejs",{gapfit})
         // }
+        
+        
         return res.render("products/checkout_page.ejs",{dress,pant,gapfit})
     }catch(err){
         return res.status(500).send(err.message)
