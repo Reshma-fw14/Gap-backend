@@ -30,8 +30,6 @@ const addToBag = (elem) => {
         p = view_items.price[0].split("")
         p.shift();
         p = +p.join("")
-        // console.log(p); 
-
         total += p 
     }
     document.getElementById('totalAmt').textContent = `Subtotal: ${'$'+(cartArray.length*total)}`;
@@ -51,7 +49,7 @@ document.getElementById("keepShopBtn").onclick=()=>{
 // //<--------------go to chechout page---------------->
 document.getElementById("coBtn").onclick=()=> {
     single(view_items)
-    // console.log(view_items._id, view_items.brand)
+    // console.log(view_items._id, view_items.brand);
 }
 
 function single({_id,brand}){

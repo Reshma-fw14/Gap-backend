@@ -2,7 +2,7 @@ body{
     margin: 0%;
   }
   
-  /* scrollbar styling */
+  /* ----------------scrollbar styling----------------- */
   ::-webkit-scrollbar {
     width: 0px;
     
@@ -37,7 +37,7 @@ body{
   }
   
   #prod_imgs{
-    /* margin-bottom: 200px; */
+   
     flex: 4;
     height: 1000px;
     display: grid;
@@ -52,7 +52,6 @@ body{
   }
   #prod_imgs div{
     height: 700px;
-    /* border:2px solid #333333; */
   }
   #prod_imgs div:hover{
     box-shadow: 10px 10px 8px #272626;
