@@ -5,6 +5,7 @@ const Dresses=require("../models/dresses.model");
 const Pants=require("../models/pants.model");
 const Gapfit=require("../models/gapfit.model");
 
+
 router.get("/checkout/", async(req,res)=>{
     try{
         console.log(req.query.id, req.query.brand)
