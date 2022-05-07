@@ -3,8 +3,6 @@ let pass = document.getElementById("passed")
     let images =["https://cordmagazine.com/wp-content/uploads/2017/07/Top-10-Best-Selling-Clothing-Brands-In-The-World-sajt.jpg",
     "https://niche.style/wp-content/uploads/2021/11/pexels-juan-mendez-1536619.jpg","https://orlando.momcollective.com/wp-content/uploads/2019/03/Teen-Fashion.png"]
 
-        
-
         let img =document.createElement('img')
         img.setAttribute("class","ipo")
         img.src=img[0]
@@ -19,6 +17,4 @@ let pass = document.getElementById("passed")
             img.src=images[i]
             pass.append(img)
             i++;
-
-
         },2000);
