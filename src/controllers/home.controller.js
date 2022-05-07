@@ -6,7 +6,6 @@ const Dresses=require("../models/dresses.model");
 const Pants=require("../models/pants.model");
 const Gapfit=require("../models/gapfit.model")
 
-
 router.get("", async(req,res)=>{
     try{
        return res.render("products/landing_page.ejs")
@@ -22,6 +21,7 @@ router.get("/category", async(req,res)=>{
         return res.status(500).send(err.message)
     }
 })
+
 
 // ------------get dresses data-------------
 // router.get("/dresses", async(req,res)=>{
