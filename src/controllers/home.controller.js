@@ -177,9 +177,6 @@ router.get("/gapfit/payment/:id", async(req,res)=>{
 })
 
 
-
-
-
 // --------------------------------------------------other controllers-------------------------------------------
 router.get("/view_product", async(req,res)=>{
     try{
