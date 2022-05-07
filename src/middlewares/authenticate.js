@@ -26,6 +26,7 @@ module.exports = async (req, res, next) => {
   const token = req.headers.authorization.split(" ")[1];
 
   let user;
+  
   try {
     user = await verifyToken(token);
   } catch (err) {
