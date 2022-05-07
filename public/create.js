@@ -10,8 +10,6 @@ import signin from "../component/signaccount"
      cont.innerHTML = createAccount();
  }
 
-
-
  var btn = document.getElementById("btnn");
  btn.addEventListener("click",sign)
 
