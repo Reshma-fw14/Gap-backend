@@ -5,8 +5,6 @@ const User =require("../models/user.model")
 
 const router = express.Router();
 
-
-
 router.post("",
 body("firstandlastname").isString().isLength({min:3,max:30}),
 body("email")
@@ -28,8 +26,6 @@ body("password").isUppercase({min:1,max:1}).isLowercase({min:1,max:1})
       throw new Error("Password is not strong");
     })
 )
-
-
 
 async (req, res) => {
     try {
