@@ -12,18 +12,7 @@ router.get("/checkout/", async(req,res)=>{
         const pant=await Pants.findById(req.query.id).lean().exec();
         const gapfit=await Gapfit.findById(req.query.id).lean().exec();
         console.log("dress:",dress, "pants:",pant, "gapfit:",gapfit)
-
-        // if(dress){
-        //     return res.render("products/checkout_page.ejs",{dress})
-        // }
-        // if(pant){
-        //     return res.render("products/checkout_page.ejs",{pant})
-        // }
-        // if(gapfit){
-        //     return res.render("products/checkout_page.ejs",{gapfit})
-        // }
-        
-        
+ 
         return res.render("products/checkout_page.ejs",{dress,pant,gapfit})
     }catch(err){
         return res.status(500).send(err.message)
