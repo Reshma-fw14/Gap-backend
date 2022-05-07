@@ -12,8 +12,7 @@ const User = require("../models/payment.model")
 const router= express.Router();
 
 router.post("", async(req,res)=>{
-    try {
-        
+    try {  
         const users= await User.create(req.body);
      //   console.log(users)
         
@@ -25,11 +24,7 @@ router.post("", async(req,res)=>{
             users,
         
         })
-
-          
-    return res.send("mail send")
-
-        
+    return res.send("mail send")    
     } catch (err) {
         return res.status(500).send(err.message)
     }
