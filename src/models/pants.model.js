@@ -8,4 +8,5 @@ const pantsSchema=new mongoose.Schema({
     size:{type:String, required:true},
 })
 
+
 module.exports=mongoose.model("pants",pantsSchema)
