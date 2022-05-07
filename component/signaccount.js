@@ -19,7 +19,6 @@ function signin(){
         Passwords must contain 8 to 24 characters including an uppercase<br> letter,
         a lowercase letter, a number, and a special character.
       </p>
-
       <button>SIGN IN</button><br><br>
 
       <a href="#">Forgot your password?</a>
