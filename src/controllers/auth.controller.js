@@ -8,17 +8,13 @@ const newToken = (user) => {
 
 const register = async (req, res) => {
   try {
-   
     let user = await User.findOne({ email: req.body.email }).lean().exec();
     if (user)
       return res.status(400).send({ message: "Please try another email" });
 
-   
     user = await User.create(req.body);
     const token = newToken(user);
-
-
-
+    
     res.send({ user, token });
   } catch (err) {
     res.status(500).send(err.message);
