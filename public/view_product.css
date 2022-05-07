@@ -5,7 +5,6 @@ body{
   /* scrollbar styling */
   ::-webkit-scrollbar {
     width: 0px;
-    
   }
   
   .hr{
@@ -46,10 +45,12 @@ body{
     grid-gap: 10px;
     overflow: scroll;
   }
+
   #prod_imgs img{
     height: 100%;
     width: 100%;
   }
+
   #prod_imgs div{
     height: 700px;
     /* border:2px solid #333333; */
