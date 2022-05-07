@@ -1,5 +1,4 @@
-#mail{
-    
+#mail{  
     /*border: 1px solid blue;*/
     display: grid;
     /* grid-template-rows: 100px; */
@@ -7,16 +6,18 @@
     background-color: rgb(1, 1, 49);
     padding: 30px 120px;
     margin-top: 150px;
-  
 }
+
 #mail>div{
     border: 1px solid transparent;
 }
+
 #mail>div>h1{
     margin-left: 50px;
     margin-top: 35px;
     color: white;
 }
+
 #mail>div>input{
     background-color: transparent;
     color: white;
@@ -39,6 +40,7 @@
     background-color: transparent;
     
 }
+
 #oi{
     height: 50px;
     border-bottom:1px solid navy; 
