@@ -7,9 +7,8 @@
     grid-template-columns: 1,1fr;
     grid-template-rows: 5% 15%;
     grid-gap: 5px;
-
-
 }
+
 #create>div:nth-child(3){
     border: 1px solid rgb(204, 201, 201);
 }
@@ -45,8 +44,6 @@
 .bna>div:nth-child(2){
     margin-bottom: 20px;
 }
-
-
 .rep{
     font-weight: bold;
     font-size: 0.9em;
