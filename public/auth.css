@@ -9,9 +9,11 @@
     grid-gap: 5px;
 
 }
+
 #auth>div:nth-child(3){
     border: 1px solid rgb(204, 201, 201);
 }
+
 #auth>div>a{
     text-decoration: none;
     color: black;
@@ -35,6 +37,7 @@
    
     margin-left: 90px;
 }
+
 /*.bna>div{
     border: 1px solid blue;
 }*/
@@ -71,10 +74,12 @@
     border: 0;
     border-bottom: 1px solid black;
 }
+
 #ema>input:hover{
     border: 1px solid red;
     background-color: rgb(185, 241, 241);
 }
+
 #ema>button{
     background-color: orangered;
     width: 350px;
