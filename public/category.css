@@ -1,16 +1,19 @@
 *{
     font-family: "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;;
 }
+
 .main{
     width: 95%;
     margin:0px auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+
 .main>div:hover{
     /* transform: translateY(20px); */
     cursor: pointer;
 }
+
 .imgdiv1{
     height: 450px;
     background-image: url("https://www.gap.com/Asset_Archive/GPWeb/content/0028/619/791/assets/NEW_ARRIVALS.jpg");
