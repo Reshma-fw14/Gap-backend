@@ -25,8 +25,6 @@ router.post("", async(req,res)=>{
             users,
         
         })
-
-          
     return res.send("mail send")
 
         
@@ -34,10 +32,6 @@ router.post("", async(req,res)=>{
         return res.status(500).send(err.message)
     }
 })
-
-
-
-
 
 
 
