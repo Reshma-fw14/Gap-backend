@@ -3,7 +3,6 @@ const app=express();
 const ejs=require("ejs")
 
 require("dotenv").config()
-
 const connect=require("./configs/db");
 
 const homeController=require("./controllers/home.controller");
