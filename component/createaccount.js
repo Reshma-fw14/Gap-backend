@@ -1,4 +1,5 @@
 function createAccount(){
+    
     return `<div>
     <div class="bec">
                   <p class="rew">Become a Rewards Member</p>
@@ -34,5 +35,6 @@ function createAccount(){
               </div>
     </div>`
 }
+
 
 export default createAccount
