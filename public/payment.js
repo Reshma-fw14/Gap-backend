@@ -5,7 +5,6 @@ function sendData(data){
     display(final_item)
 }
 
-
 // let bill = JSON.parse(localStorage.getItem("bill"));
 function display(elem){
     // let checkbox1=document.getElementById("checkbox1").value
@@ -23,7 +22,6 @@ function display(elem){
     //   total.innerHTML=(checkbox1+subtotal.shift());
     // }
 }
-
 
 // ------------------------------------payment div----------------------------
   let pay = document.getElementById("pay");
@@ -98,7 +96,6 @@ function display(elem){
         alert("Wrong Otp");
       }
     };
-
     pay.append(div, paypalbtn, afterpaybtn, hr, otp, btn);
   }
  
