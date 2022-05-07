@@ -23,6 +23,7 @@ function createAccount(){
                       <p class="four">- ! @ # $ % ^ & * ( ) _ +</p>
                   </div>
               </div>
+              
               <div class="mob">
                   <input type="number" placeholder="Mobile Number">
                   <p class="five">Add phone number for easier rewards lookup in store</p>
