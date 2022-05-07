@@ -98,6 +98,7 @@ body{
     height: 100%;
     width: 100%;
   }
+
   /* #outer > div:nth-child(1) {
     background-image: url("https://static.onecms.io/wp-content/uploads/sites/13/2018/03/20/coedition.jpg");
     background-repeat: no-repeat;
@@ -143,7 +144,6 @@ body{
     margin: 5px;
     font-size: 2em;
     font-weight: 400;
-
   }
   #next {
     display: grid;
@@ -167,7 +167,6 @@ body{
     height: 100%;
     width: 100%;
   }
-  
   #button {
     /*border: 1px solid red;*/
     display: grid;
@@ -340,7 +339,6 @@ body{
       margin-left: 70px;
       margin-top: 250px;
   }
-  
   
   #qbteen{
       display: grid;
