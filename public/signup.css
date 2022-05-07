@@ -14,13 +14,13 @@
     margin-bottom: 1.5rem;
     line-height: 0;
 }
+
 #sign>input{
     margin-left: 12%;
     width: 350px;
     border: 0;
     border-bottom: 1px solid black;
     padding: 9px;
-
 }
 #sign>input:hover{
     border: 1px solid red;
@@ -32,7 +32,6 @@
     color: rgb(105, 105, 105);
     font-family: Source Sans Pro,Helvetica,Arial,Roboto,sans-serif;
     padding-left: 12%;
-    
 }
 .one{
     font-size: 0.9rem;
@@ -70,9 +69,7 @@
 .gap{
     display: grid;
     grid-template-columns: 12% 80%;
-    margin-left: 15%;
-    
-    
+    margin-left: 15%;   
 }
 /*.gap>div{
     border: 1px solid black;
