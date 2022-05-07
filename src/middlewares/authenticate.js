@@ -13,6 +13,7 @@ const verifyToken = (token) => {
 
 module.exports = async (req, res, next) => {
  
+  
   if (!req.headers.authorization)
     return res.status(400).send({
       message: "authorization token was not provided or was not valid",
